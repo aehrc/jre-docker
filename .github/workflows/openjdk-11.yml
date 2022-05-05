@@ -2,7 +2,7 @@ name: Build OpenJDK 11 image
 
 on:
   push:
-    branches: master
+    branches: main
   schedule:
     - cron: "0 0 * * *"
 
