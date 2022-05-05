@@ -27,6 +27,6 @@ jobs:
         working-directory: openjdk/11
         run: |
           docker buildx build \
-          --tag johngrimes/openjdk:11-jre \
+          --tag johngrimes/jre:openjdk-11 \
           --platform linux/amd64,linux/arm64 \
           --push . 
