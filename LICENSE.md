@@ -67,4 +67,4 @@ agree to comply with the licence terms for these components as part of
 accessing the Software. Other third party software may also be identified in
 separate files distributed with the Software.
 
-* Oracle OpenJDK 11 - https://openjdk.java.net/legal/gplv2+ce.html
+* Oracle OpenJDK - https://openjdk.java.net/legal/gplv2+ce.html
