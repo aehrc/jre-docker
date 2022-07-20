@@ -4,7 +4,7 @@ ENV LANG en_US.UTF-8
 ENV LANGUAGE en_US:en
 ENV LC_ALL en_US.UTF-8
 
-RUN apk add --update --no-cache \
+RUN apk update && apk upgrade && apk add --update --no-cache \
   openjdk11-jre \
   tzdata \
   # Fix java.lang.UnsatisfiedLinkError: no fontmanager in java.library.path
