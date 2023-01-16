@@ -1,6 +1,7 @@
 name: Build OpenJDK 11 image
 
 on:
+  workflow_dispatch:
   push:
     branches: main
   schedule:
