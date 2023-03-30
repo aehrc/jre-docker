@@ -1,6 +1,7 @@
 name: Build OpenJDK with Fontconfig 17 image
 
 on:
+  workflow_dispatch:
   push:
     branches: main
   schedule:
